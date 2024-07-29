@@ -1,0 +1,246 @@
+@import 'utilities.css';
+
+:root{
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #f2f2f2;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(170, 158, 142);
+
+}
+
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left .branding{
+    font-size: 30px;
+    color: var(--pure);
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover{
+    color: var(--primary);
+}
+
+header nav{
+    padding: 2rem 0;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+
+.hero{
+    padding: 3rem 0;
+}
+
+
+.hero .right{
+    color: var(--pure);
+}
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color: var(--primary);
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .right{
+    margin-top: -7rem;
+}
+
+.about{
+    padding: 6rem 0;
+    background-color: rgb(170, 158, 142);
+    
+}
+
+section .me{
+    width: 40%;
+    margin-right: 54px;
+}
+
+section .me h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+section .me h1 span{
+    color: var(--primary);
+}
+
+section .me p{
+    font-size: 20px;
+    padding: 3px;
+}
+
+section.skills{
+    background-color: rgb(119, 119, 119)
+}
+
+.skills h1{
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.skills h1 span{
+    color: rgb(104, 23, 23);
+}
+
+.first img{
+    margin-left: 30px;
+}
+
+.first p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.second img{
+    margin-left: 30px;
+}
+
+.second p{
+    margin-top: 32px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.third img{
+    margin-left: 30px;
+}
+
+.third p{
+    width: 50%;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.projects{
+    background-color: rgb(180, 180, 180);
+    color: black;
+}
+
+.projects h1{
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content h2{
+    font-weight: 400;
+    font-size: 300;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.content p{
+    margin: 23px;
+    font-size: 19px;
+    width: 50%;
+}
+
+.freelancer{
+    text-align: center;
+    background-color: rgb(201, 166, 166);
+    height: 200px;
+}
+
+.freelancer h1{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.freelancer button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.freelancer button:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.contact .whatsapp p{
+    font-size: 30px;
+}
+
+.contact .email{
+    margin-top: 30px;
+}
+
+.contact .email p{
+    font-size: 30px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
